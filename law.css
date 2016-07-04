@@ -1,0 +1,166 @@
+﻿/* Law Style */
+body {
+	font-family: 'Fangsong';
+	//text-shadow: 0.05em 0.05em 0.2em #999999 !important;
+	font-size:25px;
+	padding-left:3em;
+	padding-right:3em;
+	text-align: justify;
+}
+h1 {
+	font-family:'STZhongsong' 华文中宋;
+	font-size:2em;
+	color:red;
+	margin-bottom: 12px;
+	margin-top:0;
+}
+
+h2 {
+	font-size:1.5em;
+}
+h3 {
+	font-size:1.25em;
+	margin-top:0em;
+	margin-bottom:1em;
+	font-weight:bold;
+}
+h4 {
+	font-size:1em;
+	text-align:left;
+}
+h5 {
+	font-size:1em;
+	text-align: center;
+}
+
+.consignee {
+	font-family: SimHei;
+	text-indent: 0em;
+	}
+.issuer, .date {
+	text-align: right;
+	}
+.new {
+	color:blue;
+}
+.new .ref {
+	font-size:80%;
+}
+.year {
+	text-align:center;
+	text-indent:0em;
+	font-weight:bold;
+	font-size:20pxl
+}
+p, h4 {
+	text-indent:2em;
+	line-height:2em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+ul {
+	line-height: 1.5em
+}
+
+.appendix {
+	text-indent: 0em;
+	font-family: simhei;
+}
+
+table	{
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}
+
+table td, table th{
+	font-size: 75%;
+	font-family: 'Times New Roman' SimSun;
+}
+
+table th {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px solid;
+}
+
+.article {
+	font-family: SimHei;
+}
+
+.TableOfContents {
+	font-size: 100%;
+}
+
+caption {
+	font-family: SimHei;
+	margin-bottom: 1em;
+}
+
+span.b {
+	font-weight: bold;
+}
+
+td.b {font-weight: bold;}
+
+/*无框线的表格表头*/
+table.t {
+	border-style: none;
+	margin-top: 1.5em;
+	margin-bottom: -.5em;
+}
+
+table.t td {
+	border-style: none;
+}
+
+table.t td.c {
+	font-family: SimHei;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	width: auto;
+}
+
+table.t td.n {
+	text-align: left;
+}
+
+table.t td.d {
+	text-align: center;
+}
+
+table.t td.u {	//Unit
+	text-align: right;
+	width: 5em;
+}
+
+table.t td.i { //Index
+	text-align: left;
+	width: 5em;
+}
+
+table.english {
+	border-style: none;
+}
+
+table.formula {
+	border-style: none;
+	width: auto;
+	margin-left: 2em;
+	padding: 0;
+	}
+	
+table.formula td {
+	border-style: none;
+	padding: 0;
+	font-style: normal;
+	font-family: FangSong;
+	font-size: 25px;
+	}
